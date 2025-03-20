@@ -1,0 +1,66 @@
+/*Estilos de las cajas y img*/
+
+/*Estilos caja Portada del juego*/
+.claseCajaPortada{
+    box-sizing: border-box;
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(217, 217, 217, 1);
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.imgportadatf2 {
+    height: 350px;
+    border-radius: 15px;
+    object-fit: contain; 
+    /* Ajusta la imagen sin deformarla 
+    (puede ser "contain" si quieres que siempre se vea toda sino "cover") */
+}
+.valoracion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilos caja acompañante de portada*/
+.claseContenedoraTexto{
+    display: flex;
+    flex-direction: column;
+}
+.claseHijoPrincipal{
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.CajaContenedoraJuegos {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 10px; /* Espacio entre imágenes */
+    
+}
+.CajaContenedoraJuegos img {
+    width: 100%; /* Para que las imágenes se ajusten al contenedor */
+    height: 250px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+.clasePadreBlanco{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
